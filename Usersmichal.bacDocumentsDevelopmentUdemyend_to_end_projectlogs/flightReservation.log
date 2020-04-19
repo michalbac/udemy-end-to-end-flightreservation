@@ -1,0 +1,25 @@
+2020-04-18 23:15:57 - Starting FlightreservationApplication on PL2054956W2 with PID 1832 (C:\Users\michal.bac\Desktop\repos\flightreservation\target\classes started by Michal.Bac in C:\Users\michal.bac\Desktop\repos\flightreservation)
+2020-04-18 23:15:57 - No active profile set, falling back to default profiles: default
+2020-04-18 23:15:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-18 23:15:58 - Finished Spring Data repository scanning in 86ms. Found 4 JPA repository interfaces.
+2020-04-18 23:15:59 - Tomcat initialized with port(s): 8080 (http)
+2020-04-18 23:15:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 23:15:59 - Starting service [Tomcat]
+2020-04-18 23:15:59 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 23:15:59 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-18 23:15:59 - Initializing Spring embedded WebApplicationContext
+2020-04-18 23:15:59 - Root WebApplicationContext: initialization completed in 1806 ms
+2020-04-18 23:15:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 23:15:59 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 23:16:00 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 23:16:00 - HikariPool-1 - Starting...
+2020-04-18 23:16:00 - HikariPool-1 - Start completed.
+2020-04-18 23:16:00 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-18 23:16:01 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 23:16:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-18 23:16:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-18 23:16:01 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 23:16:01 - Adding welcome page: ServletContext resource [/index.html]
+2020-04-18 23:16:01 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 23:16:01 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-04-18 23:16:01 - Started FlightreservationApplication in 4.74 seconds (JVM running for 7.126)

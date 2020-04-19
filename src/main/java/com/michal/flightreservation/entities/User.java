@@ -12,10 +12,16 @@ import javax.persistence.Entity;
 @Entity(name = "users")
 public class User extends AbstractEntity{
     private String firstName;
-
     private String lastName;
-
     private String email;
-
     private String password;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

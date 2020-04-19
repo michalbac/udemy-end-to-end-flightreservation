@@ -1,0 +1,27 @@
+2020-04-18 22:32:29.175  INFO 10136 --- [main] c.m.f.FlightreservationApplication       : Starting FlightreservationApplication on PL2054956W2 with PID 10136 (C:\Users\michal.bac\Desktop\repos\flightreservation\target\classes started by Michal.Bac in C:\Users\michal.bac\Desktop\repos\flightreservation)
+2020-04-18 22:32:29.179  INFO 10136 --- [main] c.m.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2020-04-18 22:32:30.668  INFO 10136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-18 22:32:30.826  INFO 10136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142ms. Found 4 JPA repository interfaces.
+2020-04-18 22:32:31.535  INFO 10136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-18 22:32:31.544  INFO 10136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-18 22:32:31.545  INFO 10136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-18 22:32:32.020  INFO 10136 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-18 22:32:32.030  INFO 10136 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2020-04-18 22:32:32.030  INFO 10136 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2772 ms
+2020-04-18 22:32:32.237  INFO 10136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 22:32:32.337  INFO 10136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 22:32:32.613  INFO 10136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 22:32:32.747  INFO 10136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-18 22:32:32.913  INFO 10136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-18 22:32:32.935  INFO 10136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-18 22:32:33.919  INFO 10136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 22:32:33.926  INFO 10136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-18 22:32:34.482  WARN 10136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-18 22:32:34.609  INFO 10136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 22:32:34.732  INFO 10136 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-04-18 22:32:34.893  INFO 10136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-04-18 22:32:34.895  INFO 10136 --- [main] c.m.f.FlightreservationApplication       : Started FlightreservationApplication in 6.475 seconds (JVM running for 9.262)
+2020-04-18 22:33:08.273  INFO 10136 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 22:33:08.274  INFO 10136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-18 22:33:08.279  INFO 10136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-18 22:33:08.367  INFO 10136 --- [http-nio-8080-exec-1] c.m.f.controller.UserController          : Inside login() with email: michalkodilla1@gmail.com

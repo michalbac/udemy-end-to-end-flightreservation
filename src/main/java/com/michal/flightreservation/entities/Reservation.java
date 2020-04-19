@@ -23,4 +23,14 @@ public class Reservation extends AbstractEntity {
     private Passenger passenger;
     @OneToOne
     private Flight flight;
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "checkedIn=" + checkedIn +
+                ", numberOfBags=" + numberOfBags +
+                ", passenger=" + passenger +
+                ", flight=" + flight +
+                '}';
+    }
 }

@@ -20,7 +20,18 @@ public class ReservationRequest {
     private String expireDate;
     private String securityCode;
 
-
-
-
+    @Override
+    public String toString() {
+        return "ReservationRequest{" +
+                "flightId=" + flightId +
+                ", passengerFirstName='" + passengerFirstName + '\'' +
+                ", passengerLastName='" + passengerLastName + '\'' +
+                ", passengerEmail='" + passengerEmail + '\'' +
+                ", passengerPhone='" + passengerPhone + '\'' +
+                ", nameOnTheCard='" + nameOnTheCard + '\'' +
+                ", cardNumber='" + cardNumber + '\'' +
+                ", expireDate='" + expireDate + '\'' +
+                ", securityCode='" + securityCode + '\'' +
+                '}';
+    }
 }
