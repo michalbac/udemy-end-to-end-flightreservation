@@ -1,5 +1,5 @@
 package com.michal.flightreservation.service;
 
 public interface SecurityService {
-    boolean login;
+    boolean login (String username, String password);
 }

@@ -21,7 +21,7 @@ public class FlightController {
     @Autowired
     private FlightRepository flightRepository;
 
-    @RequestMapping("/findFlights")
+    @RequestMapping("findFlights")
     public String findFights(@RequestParam String from, @RequestParam String to,
                              @RequestParam @DateTimeFormat(pattern = "MM-dd-yyyy") Date departureDate,
                              ModelMap modelMap) {
@@ -30,5 +30,10 @@ public class FlightController {
         modelMap.addAttribute("flights", flights);
         LOGGER.info("Found flights: " + flights);
         return "displayFlights";
+    }
+
+    @RequestMapping("admin/showAddFlight")
+    public String showAddFlight(){
+        return "addFlight";
     }
 }
